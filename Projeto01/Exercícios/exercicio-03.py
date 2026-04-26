@@ -9,5 +9,4 @@ for contador in range(0,3):
 maiores_idade = [pessoa for pessoa in pessoas if pessoa[1] >= 18] #Utilizei list comprehension para separar pessoas >= 18 anos
 menores_idade = [pessoa for pessoa in pessoas if pessoa[1] < 18] #Utilizei list comprehension para separar pessoas < 18 anos
 print(f'As pessoas que são maiores de idade são: {maiores_idade}')
-print(f'Idades maiores que 18 anos: {maiores_idade}')
-print(f'Idades menores que 18 anos: {menores_idade}')
+print(f'As pessoas com idade menor que 18 anos são: {menores_idade}')
