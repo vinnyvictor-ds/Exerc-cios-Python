@@ -10,6 +10,6 @@ try:
     if verificador == 2:
         print(f'Há {verificador} divisores. Portanto, {numero} é primo.')
     else:
-        print(f'Há {verificador} divisores. Portanto, {numero} não é primo.')
+        print(f'Há  {verificador} divisores. Portanto, {numero} não é primo.')
 except ValueError:
     print('O valor digitado pelo usuário é inválido. Tente novamente!')
