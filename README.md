@@ -5,7 +5,7 @@ Resumidamente, o exercício 5 pede para que o usuário digite o nome, a idade e 
 
 ### Aprendizados neste exercício:
 Pude aprofundar meus conhecimentos sobre o uso de listas e sublistas. Em listas, destaco:
-1: USO E MANIPULAÇÃO DE LISTAS/SUBLISTAS
+## 1: USO E MANIPULAÇÃO DE LISTAS/SUBLISTAS ##
 
         dados_pessoas = [nome,idade,sexo]
         pessoas.append(dados_pessoas)
@@ -23,7 +23,7 @@ Exemplo disso:
             idades_femininas = idades_femininas + 1
 Perceba que eu estou verificando o índice 2, isto é, se o SEXO é F e se, no índice 1, isto é, a IDADE é menor do que 21.
 
-2: ORGANIZAÇÃO DOS DADOS DA LISTA UTILIZANDO COMO REFERÊNCIA A **IDADE**
+## 2: ORGANIZAÇÃO DOS DADOS DA LISTA UTILIZANDO COMO REFERÊNCIA A **IDADE** ##
 Uma outra dúvida pertinente que surgiu era: Como eu poderia organizar a lista pela idade, isto é, pelo índice 1 se eu tinha uma lista de listas? Eu sabia que o método sort() era capaz de ordenar os elementos de uma lista. No entanto, eu não sabia como eu poderia fazer isso NESTE exercício. Então, surgiu uma solução com o auxílio do Gemini: utilizar a função anônima lambda.
 
 ## O que é a função lambda? ##
