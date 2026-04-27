@@ -19,7 +19,6 @@ for c in range(0,4):
     if (dados_pessoas[2] == 'F') and (dados_pessoas[1] < 21):
         idades_femininas = idades_femininas + 1
 pessoas.sort(key=lambda p: p[1])
-
 print('LISTA COMPLETA E ORDENADA: ')
 print('-=' * 10)
 print(pessoas)
